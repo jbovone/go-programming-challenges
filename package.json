@@ -1,0 +1,11 @@
+{
+  "name": "go-programming-challenges",
+  "version": "1.0.0",
+  "description": "https://github.com/CodeGuppyPrograms/CodingChallenges ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jbovone",
+  "license": "ISC"
+}
