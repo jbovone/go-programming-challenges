@@ -1,19 +1,20 @@
 /*Coding challenge #10: Calculate the sum of numbers in an array of numbers*/
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	numbers := [5]int{2, 2, 5, 4, 5}
-	var acc int = 0 //18
-	for index, value := range numbers {
-		acc += value
-		fmt.Println(index)
+	myArr := []int{2, 3, 4}
+	fmt.Println(
+		sumArr(myArr),
+	)
+}
+func sumArr(arr []int) int {
+	sumArr := 0
+	for value := range arr {
+		sumArr += arr[value]
 	}
-	fmt.Println(acc)
-
+	return sumArr
 }
 
 /*
